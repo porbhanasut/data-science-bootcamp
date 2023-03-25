@@ -1,3 +1,3 @@
-library(ggplot)
+library(ggplot2)
 
-ggplot2(
+p1 <- qplot(mpg, data ="mtcars", geom = "identity")
